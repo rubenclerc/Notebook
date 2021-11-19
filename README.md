@@ -1,6 +1,6 @@
 # Notebook
 ## Introduction
-This project was realised for the advanced OOP module of my university diploma in technology in computer science. It was fully developed in C# with Visual Studio 2019. The Notebook app help you to calculate you averages grades by inputting your units, modules etc. 
+This project was realised for the advanced OOP module of my university diploma in technology in computer science. It was fully developed in C# with Visual Studio 2019. The Notebook app help you to compute you averages grades by inputting your units, modules etc. 
 ## How to use
 1. Download the /Realease directory
 2. Execute the Notebook.exe file
