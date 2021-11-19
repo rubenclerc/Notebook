@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\TestStorage\\TestStorage.csproj": {}
+  },
+  "projects": {
+    "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Storage\\Storage.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Storage\\Storage.csproj",
+        "projectName": "Storage",
+        "projectPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Storage\\Storage.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj": {
+                "projectPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\TestStorage\\TestStorage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\TestStorage\\TestStorage.csproj",
+        "projectName": "TestStorage",
+        "projectPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\TestStorage\\TestStorage.csproj",
+        "packagesPath": "C:\\Users\\travail\\.nuget\\packages\\",
+        "outputPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\TestStorage\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\travail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj": {
+                "projectPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Logic\\Logic.csproj"
+              },
+              "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Storage\\Storage.csproj": {
+                "projectPath": "D:\\Cours\\S3\\Prog objet\\TP\\projet\\NoteBook\\Storage\\Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

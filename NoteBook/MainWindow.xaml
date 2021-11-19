@@ -1,0 +1,29 @@
+﻿<Window x:Class="NoteBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoteBook"
+        mc:Ignorable="d"
+        Title="Carnet de notes" Height="450" Width="800" Background="Beige">
+    <Grid x:Name="mainWindow" Margin="50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <Button Click="CreateExam" x:Name="examButton" Content="Rentrer un examen" Grid.Row="2" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="matiereButton" Content="Saisir les matières" FontWeight="Bold" Click="GoEditUnits" Grid.Row="0" FontSize="18"/>
+        <Button Click="ListEx" x:Name="moyenneButton" Content="Afficher les moyennes" Grid.Row="4" FontWeight="Bold" FontSize="18"/>
+        <Image x:Name="notebookPicture" Source="notebook.jpg" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+D:\Cours\S3\Prog objet\TP\projet\NoteBook\Logic\bin\Release\Logic.dll
+D:\Cours\S3\Prog objet\TP\projet\NoteBook\Logic\bin\Release\Logic.pdb
+D:\Cours\S3\Prog objet\TP\projet\NoteBook\Logic\obj\Release\Logic.csproj.AssemblyReference.cache
+D:\Cours\S3\Prog objet\TP\projet\NoteBook\Logic\obj\Release\Logic.csproj.CoreCompileInputs.cache
+D:\Cours\S3\Prog objet\TP\projet\NoteBook\Logic\obj\Release\Logic.dll
+D:\Cours\S3\Prog objet\TP\projet\NoteBook\Logic\obj\Release\Logic.pdb

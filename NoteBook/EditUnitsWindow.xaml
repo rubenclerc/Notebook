@@ -1,0 +1,34 @@
+﻿<Window x:Class="NoteBook.EditUnitsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoteBook"
+        mc:Ignorable="d"
+        Title="Edit Units" Height="370" Width="664" Background="Beige">
+    <Grid Margin="30">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="30" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label x:Name="unitLabel" Content="Courses Units" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" FontWeight="Bold" FontSize="18"/>
+        <ListBox SelectionChanged="SelectUnit" x:Name="unitListBox" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Grid.Column="0" MouseDoubleClick="EditUnit" />
+        <Button Click="AddUnit" x:Name="addButton" Content="Add unit" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="2"/>
+        <Button Click="RemoveUnit" x:Name="removeButton" Content="Remove unit" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Column="0" Grid.Row="3"/>
+
+        <Label x:Name="moduleLabel" Content="Modules"  Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" FontWeight="Bold" FontSize="18"/>
+        <ListBox x:Name="moduleListBox"  HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Grid.Column="2" MouseDoubleClick="EditModule"/>
+        <Button x:Name="addModuleButton" Content="Add module" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="2" Click="CreateModule"/>
+        <Button x:Name="removeModuleButton" Content="Remove module"  HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3" Click="RemoveModule"/>
+
+    </Grid>
+</Window>
